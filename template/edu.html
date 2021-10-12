@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edu Detail</title>
+	<script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/edu.css">
+      
+</head>
+<body>
+	<div>
+	  <form id="School_detail">
+		   <h1 id="Sch_header">School Detail</h1>
+		  <br>
+		<div>
+		 <label> 12th college Board :</label>
+		  <select name="Board" id="Bord_12th">
+		 	<option value="">Select Board</option>
+		 	<option value="State Board">State Board</option>
+		 	<option value="CBSE">CBSE</option>
+		 	<option value="ICSE">ICSE</option>	
+		 </select>
+	    </div>
+	    <br>
+	    <div>
+		  <label>College Name :</label>
+		    <input type="text" name="name" id="college_name" placeholder="Enter College Name" autocomplete="off"><!-- <br>
+		     <span id="coll_span" style=" font-size: 0.65em; color: red; margin-left: 20em " ></span> -->
+        </div>
+        <br>        
+         <div>
+			<label>12th Mark :</label>
+			 <input type="number" name="marks" min="30" max="99.99" id="sc_mark" placeholder="Enter 12th Marks"  autocomplete="off">
+		   <select class="marks_12" id="marks_twelvfth">
+		 	<option value="">Select Pattern</option>
+		 	 <option value="%">%</option>
+		 	 <option value="CGPA">CGPA</option>
+		 	 <option value="SGPA">SGPA</option>
+		   </select>   
+		      <!-- <br>
+		     <span id="sch_marks_span" style=" font-size: 0.65em; color: red; margin-left: 20em " ></span> -->
+		 </div><br>
+        <div>
+		  <label>Passing Year :</label>
+		    <input type="number" name="number" id="Twelth_pass" placeholder="e.g. 2018"  min="1900" max="2099" autocomplete="off">
+		 <!-- <br>
+		 <span id="coll_pass_span" style=" font-size: 0.65em; color: red; margin-left: 20em " ></span> -->
+		 </div><br>	 
+		 <div>
+    		
+	         <button id="submit" > Submit </button>
+	    </div>
+      </form>
+     </div>   
+      <!-- <div id="College_Detail"> 
+      -->
+         
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script type="text/javascript" src="../js/Educational.js"></script>
+</html>

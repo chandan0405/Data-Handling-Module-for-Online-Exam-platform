@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashbord</title>
+	<script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<script type="text/javascript" src="../js/config.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+	<script type="text/javascript" src="../js/dashboard.js"></script>
+</head>
+<body>
+	<header>
+			<nav id="nav">
+				<div id="left">
+				<!-- <h1>menu</h1> -->
+				<input type="checkbox" id="slidermenu">
+				<label for="slidermenu" id="sliderlabel"><button id="examreg" type="button" onclick="examRegister()">Exam Dashboard</button></label>
+				<label for="slidermenu" id="box">
+					<div class="spinner top"></div>
+					<div class="spinner middle"></div>
+					<div class="spinner bottom"></div>
+				</label>
+			</div>
+			<div id="right">
+				<button id="details" type="button" onclick="personalDetails()">Personal Details</button>
+				<button id="details" type="button" onclick="educationalDetails()">Educational Details</button>
+				<button id="out"  onclick="logOut()">Logout</button>
+			</div>
+			</nav>
+		</header>
+		<!-- <h1 id="dash">Dashboard</h1> -->
+		<div id="stepBox">
+			<div id="stepBox_contenet">
+				<p> Eligibility :</p>
+				<ul>
+					<li>First Fill Personal Details</li>
+					<li>Fill Educational Details</li>
+					<li>Class 12th percentage must be 60% and more</li>
+				</ul>
+			</div>
+		</div>
+		<div id="register">
+			<button id="regibtn" type="button" onclick="register()">Register</button>
+		</div>
+</body>
+</html>

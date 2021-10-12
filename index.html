@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login-Form</title>
+	<script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/registration.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/dashboard.css"> -->
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/registr.js"></script>
+</head>
+<body>
+	 <!-- <div id="ring">
+		<div id="load">
+			<img src="images/google_logo.gif">
+		</div>	
+	</div> -->
+
+	<div id="message-container">
+		<p id="alertmessage">Welcome</p>
+	</div>
+	<div id="SignupContainer">
+		<h1> Signup Form</h1>
+		<form >
+			<div id="txt_field1">
+				<input type="text" name="user" id="signupinput" autocomplete="off">
+				<label>Username</label>
+				<span></span>
+			</div>
+			<div id="txt_field1">
+				<input type="Password" name="Password" id="signuPpass">
+				<label>Password</label>
+				<span></span>
+			</div>
+			</form>
+			<br>
+		<button onclick="signup()" id="signupbtn">Sign Up</button> 
+		
+	</div>
+
+	
+	<div id="loginContainer">
+		<h1> Login Form</h1>
+		<form>
+			<div id="txt_field">
+				<input type="text" name="user" id="logininput" autocomplete="off">
+				<label>Username</label>
+				<span></span>
+			</div>
+		<div id="txt_field">
+			<input type="Password" name="Password" id="loginpass">
+			<label>Password</label>
+			<span></span>
+		</div>
+		</form>
+		<br>
+		<button onclick="login()" id="loginbutton">Login</button> <br><br>
+		<button onclick="createaccount()" id="regbtn" >New User? <span>Register</span></button>
+		
+	</div>
+
+	<!-- <div id="dashboardContainer">
+		<a href="dashbord.html"></a>	
+	</div> -->
+</body>
+
+</html>

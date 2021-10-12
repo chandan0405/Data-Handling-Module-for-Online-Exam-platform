@@ -1,0 +1,80 @@
+.*{
+	margin: 0;
+	padding: 0;
+}
+div h1{
+	text-align: center;
+	margin-top: 0.1em;
+}
+body{
+	background-color: #f2f7fd;
+}
+#Registerfetch{
+	
+	border: 2px solid black;
+	height: 79%;
+	width: 80%;
+	margin-left: 4em;
+	margin-right: 3em;
+	font-size:  1.5em;
+	text-align: center;
+	background-color: #edf1fe;
+	padding-right: 3.5em;
+}
+#name{
+   width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 4em;
+ 	margin-right: -11.7em; 
+}
+#mobile{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -11em;
+}
+#Emailid{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+
+}
+
+
+#btn_submit{
+	background-color: #98d98e;
+	height: 2.5em;
+ 	width: 20%;
+ 	margin-left: 2em;
+ 	margin-right: -1.2em;
+ 	margin-bottom: 1em;
+ 	cursor: pointer;
+}
+#btn_submit:hover{
+	background-color: #79b465;
+}
+#twelve{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+ }
+#graduation{
+	width: 25%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+ }
+#exam_city{
+ 	width: 25%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+ }
+#exam_slot{
+ 	width: 25%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+ }

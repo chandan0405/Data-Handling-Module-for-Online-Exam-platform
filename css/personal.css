@@ -1,0 +1,83 @@
+.*{
+	margin: 0;
+	padding: 0;
+}
+div h1{
+	text-align: center;
+	margin-top: 0.1em;
+}
+body{
+	background-color: #f2f7fd;
+}
+#presonal_detail{
+	
+	border: 2px solid black;
+	height: 79%;
+	width: 80%;
+	margin-left: 4em;
+	margin-right: 3em;
+	font-size:  1.5em;
+	text-align: center;
+	background-color: #edf1fe;
+	padding-right: 3.5em;
+}
+#username{
+   width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 4em;
+ 	margin-right: -11.7em; 
+}
+#usermobile{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -11em;
+}
+#email{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -14.3em;
+
+}
+#userdate{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -8.9em;
+
+}
+#gender_select{
+	width: 32%;
+ 	height:  2em;
+ 	margin-left: 2em;
+ 	margin-right: -8.7em;
+
+}
+#city{
+	width: 31%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -15.7em;
+
+}
+#state{
+	width: 32%;
+ 	height:  1.8em;
+ 	margin-left: 2em;
+ 	margin-right: -15.7em;
+
+
+}
+#btn_submit{
+	background-color: #98d98e;
+	height: 2.5em;
+ 	width: 20%;
+ 	margin-left: 2em;
+ 	margin-right: -1.2em;
+ 	margin-bottom: 1em;
+ 	cursor: pointer;
+}
+#btn_submit:hover{
+	background-color: #79b465;
+}

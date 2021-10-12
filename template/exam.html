@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>exam Register</title>
+  <script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src="../js/Your_detailFetch.js"></script>
+    <script type="text/javascript" src="../js/exam_register_check.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/stylish.css">
+
+</head>
+<body>
+  <section id="main_section">
+    <div id="div_section">
+      <div id="personal_fetch">
+        <h1 id="detil">Your Detail </h1>
+         <input  type="hidden" id="active">
+         <p id="username">No Name Found</p>
+        <p id="email">No Email Found</p> 
+      </div>
+      <div id="MCQ">
+        <h1>MCQ</h1>
+         <button id="mcq_btn" onclick="mcq()"> Take Test </button>       
+      </div>
+      <div id="SBQ">
+        <h1>SBQ</h1>
+         <button id="sbq_btn" onclick="sbq()">Take Test</button>       
+      </div>      
+    </div>
+ </section>
+ <div id="back_btn">
+   <button id="back_id" onclick="backtodashboard()"> Back </button>
+ </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<!-- <script type="text/javascript" src="../js/exam_register_check.js"></script>-->
+ </html>

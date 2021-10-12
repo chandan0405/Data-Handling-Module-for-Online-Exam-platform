@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Detail</title>
+  <script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../js/config.js"></script> 
+  <!-- <script type="text/javascript" src="../js/FetchPersonalDetailAndEdu.js"></script> -->
+  <!-- <script type="text/javascript" src="..js/Fetch_And_Register.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="../css/regbtn.css">
+</head>
+<body>
+  <form id="Registerfetch" onsubmit="return validate()">
+  	<div>
+  		<h1 id="header">Register</h1>
+  	</div>
+  	
+  	<div>
+    	<label>Name :</label>
+  	  	<input type="text"  id="name" placeholder="Enter Name">
+  	</div><br>
+  	<div>
+  	  <label>Mobile No :</label>
+  	  	<input type="number" id="mobile" placeholder="Enter Phone no">
+  	</div><br>
+  	<div>
+  	  <label>Email :</label>
+  	  	<input type="Email"  id="Emailid" placeholder="e.g. Abc@gmail.com">
+  	</div><br>
+  	<div>
+  	  <label>12th %:</label>
+  	  	<input type="number" id="twelve" placeholder="Enter 12th %">
+  	</div><br>
+  	<div>
+  	  <label>Graduation %:</label>
+  	  	<input type="number" id="graduation" placeholder="Enter Graduation %">
+  	</div><br>
+  
+  	<div>
+  	  <label>Exam City :</label>
+  	  	<select id="exam_city">
+  	  		<option value="city">Select City</option>
+  	  	  <option value="city1">Pune</option>
+  	  	  <option value="city2">Mumbai</option>
+  	  	  <option value="city3">Bangalore</option>
+  	  	</select>
+  	</div><br>
+  	<div>
+  	  <label>Exam Slot :</label>
+  	  	<select id="exam_slot">
+  	  		<option value="slot">Select Slot</option>
+  	  	  <option value="ten"> 10:00 - 12:00 </option>
+  	  	  <option value="two"> 2:00 - 4:00 </option>
+  	  	  <option value="six"> 6:00 - 8:00 </option>
+  	  	</select>
+  	  </div> <br>
+  	  <div>
+  	  	  <input type="submit" name="submit" value="submit" id="btn_submit"> 
+  	  </div>  	  
+  </form>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script type="text/javascript" src="../js/FetchPersonalDetailAndEdu.js"></script>
+<script type="text/javascript" src="../js/Fetch_And_Register.js"></script>
+
+</html>

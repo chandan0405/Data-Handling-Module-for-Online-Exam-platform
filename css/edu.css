@@ -1,0 +1,148 @@
+#form_group{
+	display: none;
+}
+/*#header{
+	display: none;
+
+}*/
+
+.*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #edf1fe;
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+body h1{
+	color: black;
+	background-color:#edf1fe;
+	text-align: center;
+	margin: auto;
+	
+	/*border-radius: 10px 10px 10px 0px; */
+}
+div #School_detail{
+	text-align: center;
+	font-size: 1.5rem;
+	border: 2px solid green;
+    height: 60%;
+    width: 70%;
+    /*margin-left: 8em;
+    margin-right: 3em;*/
+    margin: 1.5em 0em 3em 7em;
+    padding-right: 3em;
+}
+
+#scool_name{
+	width: 33%;
+ 	height:  2em;
+ 	margin-left: 2em;
+ 	margin-right: -9.7em;
+}
+#Tenth_passid{
+    width: 33%;   
+    height:  1.7em;
+    margin-left: 2em;
+    margin-right: -10.2em;
+ }
+#sc_mark{
+    width: 18%;   
+    height:  1.7em;
+    margin-left: 2em;
+    margin-right: -3.5em;
+ }
+ 
+ #marks_twelvfth{
+    height: 28px;
+    width: 14%;
+    margin-left: 4em;
+    margin-right: -13em;
+ }
+ #Bord_12th{
+    width: 33.6%;   
+    height:  2.1em;
+    margin-left: 2em;
+    margin-right: -7em;
+ }
+ #college_name{
+    width: 33%;   
+    height:  1.7em;
+    margin-left: 2em;
+    margin-right: -10.2em;
+ }
+ #Twelth_pass{
+    width: 33%;   
+    height:  1.7em;
+    margin-left: 2em;
+    margin-right: -11.2em;
+ }
+
+#submit{
+	background-color: #98d98e;
+	height: 2.5em;
+ 	width: 20%;
+ 	margin-left: 2em;
+ 	margin-right: -1.2em;
+ 	cursor: pointer;
+    margin-bottom: 1em;
+}
+
+ .form_group{
+ 	text-align: center;
+ 	width: 100%;
+ 	font-size: 1.4rem;
+ 	border: 2px solid green;
+    height: 34rem;
+    width: 50em;
+    margin-left: 3em;
+    margin-right: 7em
+
+ }
+ #submit_college{
+ 	background-color:#74c365;
+
+ }
+ #coll_name{
+ 	width: 40%;
+ 	height:  1.6em;
+ 	margin-left: 2em;
+ 	margin-right: -9.7em;
+ }
+ #Qual{
+    width: 40%;   
+    height:  2.2em;
+    margin-left: 2em;
+    margin-right: -4.2em;
+ }
+ #Sem{
+    width: 40%;   
+    height:  2.2em;
+    margin-left: 2em;
+    margin-right: -6.2em;
+ }
+ #aggr_marks{
+ 	width: 40%;
+ 	height:  1.6em;
+ 	margin-right: -7em;
+    margin-left: 2em;
+
+ }
+ #dept_name{
+    width: 40%;   
+    height:  2.2em;
+    margin-left: 2em;
+    margin-right: -10.5em;
+ }
+ #submit_college{
+ 	height: 2.5em;
+ 	width: 20%;
+ 	margin-left: 2em;
+ 	margin-right: -1.2em;
+ 	cursor: pointer;
+ }
+
+
+ 

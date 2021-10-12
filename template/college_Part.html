@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/edu.css">
+    <script type="text/javascript" src="../js/config.js"></script>
+
+</head>
+<body>
+	<form class="form_group" id="College_Detail" >
+       	 <div id="College_Detail">
+       	   <h1 id="header">College Detail</h1> <br>
+       	    <div id="id2">
+		   <label id="Highest">Highest Qualification :</label>
+		   <select name="Qualification" id="Qual">
+		   <option value="Select Qualification">Select Qualification</option>
+		   <option value="BE/B.Tech">BE/B.Tech</option>
+		   <option value="M.Tech">M.Tech</option>
+		   <option value="Diploma">Diploma</option>
+		   <option value="B.A. "> B.A. </option>
+		   <option value=" B.B.A"> B.B.A</option>
+		   <option value="B.Ed.">B.Ed.</option>
+		   <option value="M.E./ M.Tech">M.E./ M.Tech</option>
+		   <option value="Ph.D.">Ph.D.</option> 
+		   </select><!-- <br>
+		   <span id="Qual_span" style=" font-size: 0.65em; color: red; margin-left: 20em "></span> -->
+		  </div><br>
+      	<div>
+		   <label id="College">College Name :</label>
+		     <input type="text" name="name" id="coll_name" placeholder="Enter College name" autocomplete="off"><!-- <br>
+		 <span id="coll_name_span" style=" font-size: 0.65em; color: red; margin-left: 20em " ></span> -->
+		 </div><br>
+		 
+		 <div id="id3">
+		   <label id="cur_sem">Current Semester :</label>
+		    <select id="Sem" name="semester">
+		 	 <option value="Select Semester">Select Semester</option>
+             <option value="1st Semester">1st Semester</option>
+             <option value="2nd Semester">2nd Semester</option>
+             <option value="3rd Semester">3rd Semester</option>
+             <option value="4th Semester">4th Semester</option>
+             <option value="5th Semester">5th Semester</option>
+             <option value="6th Semester">6th Semester</option>
+             <option value="7th Semester">7th Semester</option>
+             <option value="8th Semester">8th Semester</option>
+             <option value="9th Semester">9th Semester</option>
+             <option value="10th Semester">10th Semester</option>
+		   </select><!-- <br>
+		   <span id="semester_span" style=" font-size: 0.65em; color: red; margin-left: 20em"></span> -->
+		</div><br>
+		<div>
+		   <label >Department :</label>
+		    <select id="dept_name">
+		 	 <option value="Select Department">Select Department</option>
+		 	 <option value="Information Technology">Information Technology</option>
+		 	 <option value="Computer Science Engineer">Computer Science Engineer</option>
+		 	 <option value="Electonics & Telecomminications">Electonics &Telecomminications</option>
+		 	 <option value="Mechanical Engineering">Mechanical Engineering</option>
+		 	 <option value="Biotechnology Engineering">Biotechnology Engineering</option>
+		 	 <option value="Construction Engineering">Construction Engineering</option>
+		 	 <option value="Civil Engineering">Civil Engineering</option>
+		 	 <option value="Robotics Engineering">Robotics Engineering</option>
+		  </select><!-- <br>
+		  <span id="semester_span" style=" font-size: 0.65em; color: red; margin-left: 20em "></span> -->
+		</div><br>
+		<div> 
+		  <label id="ag_marks">Aggregate Marks :</label>
+		       <input type="number" name="number" id="aggr_marks" placeholder="Enter Marks" min="30.00" max="99.99" autocomplete="off"><!-- <br>
+		     <span id="Agg_span" style=" font-size: 0.65em; color: red; margin-left: 20em " ></span> -->
+		</div><br>
+		<div>
+             <button id="submit" onclick="retrack()"> Submit </button>
+      	</div>
+      </div>
+    </form>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script type="text/javascript" src="../js/Educational.js"></script>
+</html>

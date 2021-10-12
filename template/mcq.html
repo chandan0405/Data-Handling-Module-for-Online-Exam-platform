@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MCQ</title>
+	<link rel="stylesheet" type="text/css" href="../css/mcq.css">
+	<script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script type="text/javascript" src="../js/config.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="inner" id="inner">
+			<div id="container">
+			<h2 id="question"> Question?</h2>
+			<ul>
+				<li>
+					<input type="radio" name="answer" id="ans1" class="answer">
+					<label for="ans1" id="opt1"> Option A </label>
+				</li>
+				<li>
+					<input type="radio" name="answer" id="ans2" class="answer">
+					<label for="ans2" id="opt2"> Option B </label>
+				</li>
+				<li>
+					<input type="radio" name="answer" id="ans3" class="answer">
+					<label for="ans3" id="opt3"> Option C </label> 
+				</li>
+				<li>
+					<input type="radio" name="answer" id="ans4" class="answer">
+					<label for="ans4" id="opt4"> Option D </label>
+				</li>
+			</ul>
+			</div>
+			<button id="submit" > Submit </button>
+			<div id="showScore" class="scoreArea">
+				
+			</div>		
+		</div>
+	</div>
+	<script src="../js/mcq.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script type="text/javascript" src="../js/score.js"></script>
+</html>

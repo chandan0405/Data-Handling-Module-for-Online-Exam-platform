@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Detail</title>
+  <script src= "https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script type="text/javascript" src="../js/config.js"></script>
+	 <link rel="stylesheet" href="../css/personal.css">
+</head>
+<body>
+  <form id="presonal_detail" >
+  	<div>
+  		<h1 id="header">
+  			Personal Detail
+  		</h1>
+  	</div>
+  	
+  	  <div>
+  	  	<label>Name :</label>
+  	  	    <input type="text" id="username" placeholder="Enter Name">
+	
+  	  </div><br>
+  	  <div>
+  	  	<label>Mobile No :</label>
+  	  	     <input type="number" id="usermobile" placeholder="Enter Phone no">
+  	  	    
+  	  </div><br>
+  	  <div>
+  	  	<label>Email :</label>
+  	  	     <input type="Email"  id="email" placeholder="e.g. Abc@gmail.com">     
+  	  </div><br>
+  	  <div>
+  	  	<label>Date Of Birth :</label>
+  	  	      <input type="Date" id="userdate">
+  	  </div><br>
+  	  
+  	  <div>
+  	   <label> Select Gender :</label>
+  	   <select id="gender_select">
+  	  	<option value="select gender">select gender</option>
+  	  	 <option value="Male">Male</option>
+  	  	 <option value="Female">Female</option>
+  	  	 <option value="Other">Other</option>
+  	   </select>  	 
+  	 </div><br>
+  	  <div>
+  	  	<label>City :</label>
+  	  	      <input type="text"  id="city" placeholder="Enter City">
+  	  </div><br>
+  	 
+  	  <div>
+  	  	<label>State :</label>
+  	  	      <input type="text"  id="state" placeholder="Enter State">
+		    
+  	  </div> <br>
+  	  <div>
+  	  	  <button id="btn_submit" onclick="retrack()"> Submit </button>
+  	  </div>  	  
+  </form>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+   <script type="text/javascript" src="../js/personal.js"></script> 
+
+</html>
